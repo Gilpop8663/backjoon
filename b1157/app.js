@@ -26,7 +26,7 @@ function solution(A) {
   answer.forEach((item) => {
     result[item] = (result[item] || 0) + 1; // answer의 각각의 내용들에 대해 result[item]에 +1씩 합니다
   });
-  console.log(result);
+  //console.log(result);
   //console.log(answer);
   for (let i = 0; i < arr.length; i++) {
     // 알파벳의 배열 수 만큼 i++ 해주고
